@@ -7,3 +7,56 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body h1 {
+    font-size: 4vh;
+    color: black;
+    margin-bottom: 50px;
+    margin-left: 290px;
+}
+.font-size{
+  font-size: 3.4vh;
+  text-align:justify;
+  margin-top: 100px;
+  margin-left:280px ;
+  margin-right:280px;
+  margin-bottom: 200px;
+  line-height:normal;
+  color:rgb(90, 89, 89)
+}
+#header {
+  background-image: url(/french-soup/images/soup.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  height: 40vh;
+  
+  
+}
+
+#header .heading {
+  font-size:10rem;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  
+}
+.recipie-info{
+ display: block;
+ margin-left:800px ;
+ margin-bottom: 50px;
+}
+.cooking-info {
+  display: block;
+  margin-left: 800px;
+  margin-bottom: 50px;
+
+
+}
+hr {
+  border:none;
+  border-bottom: 2px solid black;
+  width: 2000px;
+  margin-bottom: 80px;
+}
+
+
