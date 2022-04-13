@@ -8,34 +8,30 @@ html {
   font-size: 18px
 }
 body h1 {
-    font-size: 4vh;
+    font-size: 4rem;
     color: black;
-    margin-bottom: 50px;
-    margin-left: 290px;
+    padding-bottom: 50px;
+    padding-left:200px 
 }
 .font-size{
   font-size: 3.4vh;
   text-align:justify;
-  margin-top: 100px;
-  margin-left:280px ;
-  margin-right:280px;
-  margin-bottom: 200px;
+  padding:200px 250px;
   line-height:normal;
   color:rgb(90, 89, 89)
 }
 #header {
   background-image: url(/french-soup/images/soup.jpg);
   background-size:cover;
-  background-repeat: no-repeat;
-  background-position: center right;
+  background-repeat:no-repeat;
   height: 40vh;
   
   
 }
 
-#header .heading {
+.heading {
   font-size:10rem;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding-top: 200px;
   

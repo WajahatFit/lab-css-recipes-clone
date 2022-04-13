@@ -14,7 +14,7 @@ body {
     height: 40vh;
 }
 .section h1 {
-    font-size: 4vh;
+    font-size: 4rem;
     color: black;
     margin-bottom: 50px;
 }
@@ -26,7 +26,7 @@ body {
     padding-top: 300px
 }
 .section {
-    font-size: 3.4vh;
+    font-size: 3.4rem;
     text-align:justify;
     margin-top: 100px;
     margin-left:260px ;
