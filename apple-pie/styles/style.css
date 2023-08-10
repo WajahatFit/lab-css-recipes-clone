@@ -1,52 +1,51 @@
- html {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 16px
-      }
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
 
 body {
-    background-color: white;
+  background-color: white;
 }
-.header{
-    background-image: url(./images/apple-pie.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center 0 center;
-    height: 40vh;
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0 center;
+  height: 70vh;
 }
 .section h1 {
-    font-size: 4rem;
-    color: black;
-    margin-bottom: 50px;
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 50px;
 }
 
 .header h1 {
-    font-size: 8rem;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding-top: 300px
+  font-size: 8rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 300px;
 }
 .section {
-    font-size: 3.4rem;
-    text-align:justify;
-    margin-top: 100px;
-    margin-left:260px ;
-    margin-right:250px;
-    color:rgb(90, 89, 89)
-    line-height:normal;
+  font-size: 1.4rem;
+  text-align: justify;
+  margin-top: 100px;
+  margin-left: 260px;
+  margin-right: 250px;
+  color: rgb(90, 89, 89);
+  line-height: normal;
 }
 
-
 .prep-logos {
-   margin:auto;
-   display: block;
-   margin-top: 100px;
+  margin: auto;
+  display: block;
+  margin-top: 100px;
 }
 
 body hr {
-    width:100rem;
-    border-top: 2px solid rgb(15, 15, 15);
+  width: 100rem;
+  border-top: 2px solid rgb(15, 15, 15);
 }
 
 #cooking-process {
-    margin-bottom: 300px;
+  margin-bottom: 300px;
 }
