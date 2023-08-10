@@ -10,7 +10,6 @@ body {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center 0 center;
   height: 70vh;
 }
 .section h1 {
