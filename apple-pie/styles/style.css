@@ -1,11 +1,11 @@
 html {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
 }
 
 body {
   background-color: white;
 }
+
 .header {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
@@ -19,7 +19,7 @@ body {
 }
 
 .header h1 {
-  font-size: 8rem;
+  font-size: 6rem;
   color: rgb(255, 255, 255);
   text-align: center;
   padding-top: 300px;
@@ -32,6 +32,9 @@ body {
   margin-right: 250px;
   color: rgb(90, 89, 89);
   line-height: normal;
+}
+.section ul li {
+  list-style-type: "- ";
 }
 
 .prep-logos {
@@ -47,4 +50,18 @@ body hr {
 
 #cooking-process {
   margin-bottom: 300px;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+  position: relative;
+}
+ol > li:before {
+  counter-increment: list;
+  content: counter(list) ") ";
+  position: absolute;
+  left: -1.4em;
 }
